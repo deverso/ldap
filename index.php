@@ -7,6 +7,7 @@
 <?php
 
 if (isset($_POST)) {
+  print_r($_POST);
   // using ldap bind
   $ldaprdn  = $_POST['user'];     // ldap rdn or dn
   $ldappass = $_POST['pass'];  // associated password
