@@ -15,7 +15,7 @@ if (isset($_POST)) {
   // connect to ldap server
   $ldapconn = ldap_connect("ldap://".$_POST['host'])
       or die("Could not connect to LDAP server.");
-
+print_r($ldapconn);
   if ($ldapconn) {
 
       // binding to ldap server
