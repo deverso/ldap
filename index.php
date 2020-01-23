@@ -1,7 +1,8 @@
 <form method="POST">
-  <p><input name="host" /></p>
-  <p><input name="user" /></p>
-  <p><input name="pass" type="password" /></p>
+  <p><label for="host">Host: </label><input id="host" name="host" /></p>
+  <p><label for="host">User: </label><input name="user" /></p>
+  <p><label for="host">Password: </label><input name="pass" type="password" /></p>
+  <p><input type="submit" /></p>
 </form>
 <?php
 
